@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+     padding: 0; 
+     box-sizing: border-box;
+}
+
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 115px;
+}
+
+.links ul{
+display:flex;
+gap: 15px;
+
+}
+.links ul li{
+    list-style: none;
+}
+.btn button{
+    padding-inline: 42px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+
+
+
+.hero-section{ 
+    background-image: url("./assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0; 
+  color:white;
+
+  display: flex;
+    flex-direction: column;   
+    justify-content: center;  
+    align-items: center;      
+    text-align: center;       
+
+            
+}
+
+.hero-section p {
+    max-width: 700px;         
+}
+
+.tag{
+    color: blue;
+}
+
+
+.card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.meet-the-speakers{
+    display: grid;
+    place-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.meet-the-speakers h1{
+    margin-inline: auto;
+}
