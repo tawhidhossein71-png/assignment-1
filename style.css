@@ -79,3 +79,38 @@ gap: 15px;
 .meet-the-speakers h1{
     margin-inline: auto;
 }
+
+.payment-card{
+    padding: 32px;
+    border: 1px solid grey;
+    border-radius: 12px;
+
+}
+
+.payment-button-hollow{
+    color: #1D4ED8;
+    padding: 11px 102px;
+    background: none;
+    border-color: #1D4ED8;
+}
+
+.payment-card-wrapper{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment-section{
+    padding: 0px 100px;
+
+}
+
+
+.payment-card-black{
+    padding: 32px;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+
+}
